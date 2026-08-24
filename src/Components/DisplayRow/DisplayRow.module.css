@@ -1,0 +1,47 @@
+/* =========================================
+   DISPLAY ROW
+   ========================================= */
+
+.displayRow {
+  width: 100%;
+
+  min-height: 100vh;
+
+  background: #000000;
+
+  color: #ffffff;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  padding-top: 30px;
+
+  padding-bottom: 50px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+  .displayRow {
+    padding-top: 20px;
+
+    padding-bottom: 40px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .displayRow {
+    padding-top: 15px;
+
+    padding-bottom: 30px;
+  }
+
+}
